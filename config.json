@@ -831,6 +831,14 @@
         "difficulty": 4
       },
       {
+        "slug": "rational-numbers",
+        "name": "Rational Numbers",
+        "uuid": "d8901821-bcdd-4e2c-981f-7f2445971064",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
+      },
+      {
         "slug": "secret-handshake",
         "name": "Secret Handshake",
         "uuid": "e8aef4e8-fe80-44da-a1fe-d9a29f0f1683",
