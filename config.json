@@ -57,6 +57,14 @@
         "status": "wip"
       },
       {
+        "slug": "wellingtons-weather-station",
+        "name": "Wellington's Weather Station",
+        "uuid": "e6175dc0-61b5-4bf4-8df4-ad8815ccd3a9",
+        "concepts": ["numbers"],
+        "prerequisites": ["basics"],
+        "status": "wip"
+      },
+      {
         "slug": "navigation-computer",
         "name": "Navigation Computer",
         "uuid": "d980412c-1480-453a-be6c-2cd7779284bc",
@@ -69,14 +77,15 @@
         "status": "wip"
       },
       {
-        "slug": "wellingtons-weather-station",
-        "name": "Wellington's Weather Station",
-        "uuid": "e6175dc0-61b5-4bf4-8df4-ad8815ccd3a9",
+        "slug": "johannes-juice-maker",
+        "name": "Johannes' Juice Maker",
+        "uuid": "4abe6ed3-6118-475b-b2ad-915ba7dcb756",
         "concepts": [
-          "numbers"
+          "classes"
         ],
         "prerequisites": [
-          "basics"
+          "number-types",
+          "bools"
         ],
         "status": "wip"
       }
@@ -990,14 +999,19 @@
       "name": "Bools"
     },
     {
+      "uuid": "4aa0a83d-393a-412e-8175-65bbf7fcd8d6",
+      "slug": "numbers",
+      "name": "Numbers"
+    },
+    {
       "uuid": "43dd66b4-5d26-44b6-8f2e-2a0392c642b2",
       "slug": "number-types",
       "name": "Number Types"
     },
     {
-      "uuid": "4aa0a83d-393a-412e-8175-65bbf7fcd8d6",
-      "slug": "numbers",
-      "name": "Numbers"
+      "uuid": "35772a3e-13ff-4e67-9e2c-04c53c986ef4",
+      "slug": "classes",
+      "name": "Classes"
     }
   ],
   "key_features": [
