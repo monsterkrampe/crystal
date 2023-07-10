@@ -88,6 +88,16 @@
           "bools"
         ],
         "status": "wip"
+      },
+      {
+        "slug": "party-robot",
+        "name": "Party Robot",
+        "uuid": "205a9a18-d32d-437e-9e43-9116cb9a2f46",
+        "concepts": ["strings"],
+        "prerequisites": [
+          "classes"
+        ],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1020,6 +1030,11 @@
       "uuid": "35772a3e-13ff-4e67-9e2c-04c53c986ef4",
       "slug": "classes",
       "name": "Classes"
+    },
+    {
+      "uuid": "7bea8916-b41e-4b28-872d-a7abeca74125",
+      "slug": "strings",
+      "name": "Strings"
     }
   ],
   "key_features": [
