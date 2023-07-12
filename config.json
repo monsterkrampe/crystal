@@ -98,6 +98,14 @@
           "classes"
         ],
         "status": "wip"
+      },
+      {
+        "slug": "high-school-sweetheart",
+        "name": "High School Sweetheart",
+        "uuid": "375d5c38-3b3b-4f62-8a16-e0e3e381adc9",
+        "concepts": ["string-methods"],
+        "prerequisites": ["strings"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1035,6 +1043,11 @@
       "uuid": "7bea8916-b41e-4b28-872d-a7abeca74125",
       "slug": "strings",
       "name": "Strings"
+    },
+    {
+      "uuid": "644484e8-7eb9-4db0-ba6c-bf83439bf4f7",
+      "slug": "string-methods",
+      "name": "String Methods"
     }
   ],
   "key_features": [
