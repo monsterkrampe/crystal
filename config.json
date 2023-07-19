@@ -106,6 +106,14 @@
         "concepts": ["string-methods"],
         "prerequisites": ["strings"],
         "status": "wip"
+      },
+      {
+        "slug": "meltdown-mitigation",
+        "name": "Meltdown Mitigation",
+        "uuid": "190e759e-e343-4c52-942f-2642e2d41780",
+        "concepts": ["conditionals"],
+        "prerequisites": ["string-methods"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1056,6 +1064,11 @@
       "uuid": "644484e8-7eb9-4db0-ba6c-bf83439bf4f7",
       "slug": "string-methods",
       "name": "String Methods"
+    },
+    {
+      "uuid": "8bb2f156-ff7d-4d5f-8878-5fc9aa11c408",
+      "slug": "conditionals",
+      "name": "Conditionals"
     }
   ],
   "key_features": [
