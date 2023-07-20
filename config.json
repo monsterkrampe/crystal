@@ -114,6 +114,14 @@
         "concepts": ["conditionals"],
         "prerequisites": ["string-methods"],
         "status": "wip"
+      },
+      {
+        "slug": "interest-is-interesting",
+        "name": "Interest is Interesting",
+        "uuid": "142d81e4-6572-4567-841d-e59439945dd9",
+        "concepts": ["while-loops", "return"],
+        "prerequisites": ["conditionals"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1069,6 +1077,16 @@
       "uuid": "8bb2f156-ff7d-4d5f-8878-5fc9aa11c408",
       "slug": "conditionals",
       "name": "Conditionals"
+    },
+    {
+      "uuid": "9f4009c3-fe9e-4e4d-b0ff-6605b35a8a2d",
+      "slug": "return",
+      "name": "Return"
+    },
+    {
+      "uuid": "e0f1bb58-def6-4195-a0f2-661ba351858f",
+      "slug": "while-loops",
+      "name": "While Loops"
     }
   ],
   "key_features": [
