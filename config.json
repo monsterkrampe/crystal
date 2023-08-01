@@ -458,6 +458,15 @@
         ]
       },
       {
+        "slug": "resistor-color-expert",
+        "name": "Resistor Color Expert",
+        "uuid": "64646ca3-ca2e-4ae2-84ad-8c3425a524b0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2,
+        "topics": []
+      },
+      {
         "slug": "isbn-verifier",
         "name": "ISBN Verifier",
         "uuid": "0b6c8c53-04ae-4969-8bc0-1f1205df3420",
