@@ -16,7 +16,7 @@ describe TicketSystem do
     end
   end
 
-  describe "tickets_avaiable" do
+  describe "tickets_available" do
     it "Can return the number of tickets available" do
       {% if @top_level.has_constant? "TicketingReservation" %}
         {% if TicketingReservation.has_method? "tickets_available" %}
@@ -90,7 +90,7 @@ describe TicketSystem do
       {% end %}
     end
 
-    it "Can order a ticket when only a few" do
+    it "Can't order a ticket when only a few" do
       {% if @top_level.has_constant? "TicketingReservation" %}
         {% if TicketingReservation.has_method?("order_ticket?") && TicketingReservation.has_method?("tickets_available") %}
           ticket_system = TicketSystem.new(10, "Bellebrook")
