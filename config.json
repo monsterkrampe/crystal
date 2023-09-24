@@ -154,6 +154,14 @@
         "concepts": ["nil"],
         "prerequisites": ["conditionals"],
         "status": "wip"
+      },
+      {
+        "slug": "password-lock",
+        "name": "Password Lock",
+        "uuid": "da64a912-5041-4b86-9a3c-3b2d90d7cd64",
+        "concepts": ["union-type"],
+        "prerequisites": ["nil", "char"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1235,6 +1243,11 @@
       "uuid": "af170079-e697-4ce9-b9fe-30dd210dc60c",
       "slug": "nil",
       "name": "Nil"
+    },
+    {      
+      "uuid": "1c734ab0-2bec-4521-ae8b-dcb07f7e7357",
+      "slug": "union-type",
+      "name": "Union Type"
     }
   ],
   "key_features": [
