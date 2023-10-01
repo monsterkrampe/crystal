@@ -162,6 +162,14 @@
         "concepts": ["union-type"],
         "prerequisites": ["nil", "char"],
         "status": "wip"
+      },
+      {
+        "slug": "blackjack",
+        "name": "Blackjack",
+        "uuid": "796d19e6-ab78-4d16-b51b-f00804ec4b44",
+        "concepts": ["case"],
+        "prerequisites": ["modules", "union-type"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1268,6 +1276,11 @@
       "uuid": "1c734ab0-2bec-4521-ae8b-dcb07f7e7357",
       "slug": "union-type",
       "name": "Union Type"
+    },
+    {
+      "uuid": "2d44a16f-8745-43be-9c6a-2279224d871c",
+      "slug": "case",
+      "name": "Case"
     }
   ],
   "key_features": [
