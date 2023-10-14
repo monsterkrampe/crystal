@@ -1,0 +1,61 @@
+require "spec"
+require "../src/*"
+
+<% property_map = {
+  ".real" => ".real",
+  ".imaginary" => ".imaginary",
+  ".abs" => ".abs",
+  ".conjugate" => ".conjugate",
+  ".exp" => ".exp",
+  ".add" => "+",
+  ".sub" => "-",
+  ".mul" => "*",
+  ".div" => "/"
+} %>
+
+<%
+complex_args = ->(json : JSON::Any) {
+  json
+    .as_a
+    .map(&.to_s)
+    .map(&.gsub("e", "Math::E"))
+    .map(&.gsub("pi", "Math::PI"))
+    .map(&.gsub("ln", "Math.log"))
+    .join(",")
+}
+%>
+
+describe <%= to_capitalized(@json["exercise"].to_s).inspect %> do
+    <% flattened_cases(@json["cases"]).each do |cases| %>
+        <%= status()%> "<%-= cases["description"] %>" do
+            <% if cases["input"]["z"]? %>
+                Complex.new(<%= complex_args.call(cases["input"]["z"]) %>)<%= property_map["." + cases["property"].to_s] -%>
+                .should eq <% -%>
+                <% if cases["expected"].as_a? -%>
+                    Complex.new(<%= complex_args.call(cases["expected"]) %>)<% -%>
+                <% else -%>
+                    <%= cases["expected"] -%>
+                <% end -%>
+            <% else %>
+                (<% -%>
+                <% if cases["input"]["z1"].as_a? -%>
+                    Complex.new(<%= complex_args.call(cases["input"]["z1"]) %>)<% -%>
+                <% else -%>
+                    <%= cases["input"]["z1"] -%><% -%>
+                <% end -%>
+                <%= property_map["." + cases["property"].to_s] -%><% -%>
+                    <% if cases["input"]["z2"].as_a? -%>
+                        Complex.new(<%= complex_args.call(cases["input"]["z2"]) %>)<% -%>
+                    <% else -%>
+                        <%= cases["input"]["z2"] -%><% -%>
+                    <% end -%>
+                ).should eq<% -%>
+                <% if cases["expected"].as_a? -%>
+                    Complex.new(<%= complex_args.call(cases["expected"]) %>)<% -%>
+                <% else -%>
+                    <%= cases["expected"] -%>
+                <% end -%>
+            <% end %>
+        end
+    <% end %>
+end

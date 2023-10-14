@@ -1068,6 +1068,15 @@
         "difficulty": 4
       },
       {
+        "slug": "complex-numbers",
+        "name": "Complex Numbers",
+        "uuid": "bc681ef9-c0ef-46bc-ac67-8720131161c0",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4,
+        "topics": []
+      },
+      {
         "slug": "sum-of-multiples",
         "name": "Sum of Multiples",
         "uuid": "5241b5ce-7360-40f2-8266-6a8934dc1d30",
