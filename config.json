@@ -194,6 +194,14 @@
         "concepts": ["binary-octal-hexadecimal"],
         "prerequisites": ["strings"],
         "status": "wip"
+      },
+      {
+        "slug": "secrets",
+        "name": "Secrets",
+        "uuid": "b8b96139-53b9-4f3d-b528-7d82fc76c4c6",
+        "concepts": ["bit-manipulation"],
+        "prerequisites": ["binary-octal-hexadecimal"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -1043,6 +1051,11 @@
       "uuid": "2145e868-df45-4262-8026-1cd0eb3433d8",
       "slug": "basics",
       "name": "Basics"
+    },
+    {
+      "uuid": "aaaf2d2f-fc39-4713-9e1d-df2a3f403dce",
+      "slug": "bit-manipulation",
+      "name": "Bit Manipulation"
     },
     {
       "uuid": "403dd39d-22ba-45b9-a80a-be0b94291ea1",
