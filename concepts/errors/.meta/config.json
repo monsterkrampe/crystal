@@ -1,0 +1,5 @@
+{
+  "blurb": "Crystal has errors which can be raised and rescued. It is also possible to deffine your own exceptions.",
+  "authors": ["meatball133"],
+  "contributors": ["ryanplusplus"]
+}

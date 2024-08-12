@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://crystal-lang.org/reference/syntax_and_semantics/exception_handling.html",
+    "description": "Crystal docs: exception-handling"
+  },
+  {
+    "url": "https://crystal-lang.org/api/Exception.html",
+    "description": "Crystal API: exception"
+  }
+]
