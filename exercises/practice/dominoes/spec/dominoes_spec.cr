@@ -22,6 +22,10 @@ describe "Dominoes" do
     Dominoes.can_chain([[1, 2], [1, 3], [2, 3]]).should eq(true)
   end
 
+  pending "if a domino is reversed it cannot be used the unreversed way" do
+    Dominoes.can_chain([[1, 2], [3, 2]]).should eq(false)
+  end
+
   pending "can't be chained" do
     Dominoes.can_chain([[1, 2], [4, 1], [2, 3]]).should eq(false)
   end
